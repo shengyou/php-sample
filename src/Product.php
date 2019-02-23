@@ -10,6 +10,7 @@ class Product
 
     /**
      * Product constructor.
+     *
      * @param $sku
      * @param $name
      * @param $price
@@ -25,7 +26,9 @@ class Product
      * @return mixed
      */
     public function getSku()
-    {return $this->sku;}
+    {
+        return $this->sku;
+    }
 
     /**
      * @return mixed
