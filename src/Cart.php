@@ -10,4 +10,9 @@ class Cart
     {
         array_push($this->items, $product);
     }
+
+    public function amount()
+    {
+        // return count($this->items);
+    }
 }
