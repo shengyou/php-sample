@@ -14,5 +14,13 @@
         "psr-4": {
             "App\\Tests\\": "tests"
         }
+    },
+    "scripts": {
+        "check-style": [
+            ".\\vendor\\bin\\phpcs.bat --standard=PSR2 src"
+        ],
+        "fix-style": [
+            ".\\vendor\\bin\\phpcbf.bat --standard=PSR2 src"
+        ]
     }
 }
