@@ -13,6 +13,6 @@ class Cart
 
     public function amount()
     {
-        // return count($this->items);
+        return count($this->items);
     }
 }
