@@ -26,17 +26,13 @@ class Product
      * @return mixed
      */
     public function getSku()
-    {
-        return $this->sku;
-    }
+    {return $this->sku;}
 
     /**
      * @return mixed
      */
     public function getName()
-    {
-        return $this->name;
-    }
+    {return $this->name;}
 
     /**
      * @return mixed
